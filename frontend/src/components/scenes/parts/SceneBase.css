@@ -1,0 +1,11 @@
+.scene-base {
+    position: absolute;
+
+    width: 1280px;
+    height: 720px;
+
+    left: 0;
+    top: 0;
+
+    overflow: hidden;
+}

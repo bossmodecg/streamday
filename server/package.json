@@ -1,0 +1,18 @@
+{
+  "name": "streamday-server",
+  "version": "0.2.0",
+  "license": "MIT",
+  "main": "index",
+  "dependencies": {
+    "@bossmodecg/core": "^0.2.0",
+    "@bossmodecg/module-clientele": "^0.2.0",
+    "@bossmodecg/module-example": "^0.2.0",
+    "@bossmodecg/module-obsstudio": "^0.2.0",
+    "@bossmodecg/module-simplestore": "^0.2.0",
+    "@bossmodecg/module-twitch": "^0.2.0",
+    "obs-websocket-js": "bossmodecg/obs-websocket-js#dev"
+  },
+  "scripts": {
+    "start": "node -- ./index.js"
+  }
+}
