@@ -16,8 +16,7 @@ BossmodeCGM.launchApplication(
       title: "Debug",
       widgets: [
         { type: SimpleStore.DebugPanel },
-        { type: BossmodeCGM.Widgets.SocketInformation },
-        { type: ExamplePanel }
+        { type: BossmodeCGM.Widgets.SocketInformation }
       ]
     }
   ]
