@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Loader from './components/Loader';
-import './index.css';
+import Backdrop from './components/Backdrop';
 
-ReactDOM.render(
-  <Loader />,
-  document.getElementById('root')
-);
+import './index.css';
+import './styles/style.css';
+
+import { init } from './services';
+
+(async () => {
+  await init();
+
+  console.log("Initializing React.");
+  ReactDOM.render(
+    <Backdrop />,
+    document.getElementById('root')
+  );
+})();

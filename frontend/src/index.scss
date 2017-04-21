@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #000000;
+  // background-color: rgba(0,0,0,0);
+}
+
+div#debugOverlay {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0px 12px;
+
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.25);
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 80%;
+}
+
+@import "./components/scenes/_parts";

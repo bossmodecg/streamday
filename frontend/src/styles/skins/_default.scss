@@ -1,0 +1,38 @@
+$_default-primary: #232439;
+$_default-textprimary: #ffffff;
+
+$_default-rail-color: #ffffff;
+
+$_default-title-bgcolor: $_default-primary;
+$_default-title-textcolor: $_default-textprimary;
+
+$_default-subtitle-bgcolor: $_default-primary;
+$_default-subtitle-textcolor: $_default-textprimary;
+
+$_default-primary-panel-bgcolor: $_default-primary;
+
+$_default-letterbox-bgcolor: $_default-primary;
+
+.skin-default {
+    .title-block {
+        background-color: $_default-title-bgcolor;
+        color: $_default-title-textcolor;
+    }
+
+    .subtitle-block {
+        background-color: $_default-subtitle-bgcolor;
+        color: $_default-subtitle-textcolor;
+    }
+
+    .vertical-rail {
+        background-color: $_default-rail-color;
+    }
+
+    .primary-panel {
+        background-color: $_default-primary-panel-bgcolor;
+    }
+
+    .display-letterbox {
+        background-color: $_default-letterbox-bgcolor;
+    }
+}

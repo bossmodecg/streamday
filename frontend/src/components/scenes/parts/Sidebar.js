@@ -4,15 +4,20 @@ import TitleBlock from './TitleBlock';
 import SubtitleBlock from './SubtitleBlock';
 import PrimaryPanel from './PrimaryPanel';
 
-import './Sidebar.css';
-
 export default class Sidebar extends React.Component {
   render() {
     return (
       <div className={`sidebar-${this.props.side}`}>
-        <TitleBlock title="Test Title" />
+        <TitleBlock>
+          <div>
+            Extra Life 2017<br />
+            SMT Nocturne
+          </div>
+        </TitleBlock>
         <div className="camera-block" />
-        <SubtitleBlock subTitle="http://bit.ly/abcdef" />
+        <SubtitleBlock>
+          http://bit.ly/abcdef
+        </SubtitleBlock>
         <PrimaryPanel />
       </div>
     );

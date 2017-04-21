@@ -4,12 +4,16 @@ export default class SubtitleBlock extends React.Component {
   render() {
     return (
       <div className="subtitle-block">
-        { this.props.subTitle }
+        { this.props.children }
       </div>
     );
   }
 }
 
 SubtitleBlock.propTypes = {
-  subTitle: React.PropTypes.string.isRequired
+  children: React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.element,
+    React.PropTypes.arrayOf(React.PropTypes.element)
+  ])
 }

@@ -16,3 +16,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# we're using SCSS, so .css files are just artifacts.
+*.css
